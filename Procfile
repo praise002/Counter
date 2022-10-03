@@ -1,1 +1,1 @@
-web: 'counter.wsgi'
+web: gunicorn.counter.wsgi --log-file -
